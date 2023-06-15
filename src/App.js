@@ -1,10 +1,13 @@
 import './App.css';
 import React from 'react'
+import Navbar from './components/Navbar';
+import Blogarea from './components/Blogarea'; 
 
 export default function App() {
   return (
     <div>
-      <h1>Welcome to my blogging website</h1>
+      <Navbar/>
+      <Blogarea/>
     </div>
   )
 }
